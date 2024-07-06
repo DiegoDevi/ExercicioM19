@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./libs/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>OMNIBUS</h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <secion>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/Thor-Omnibus.jpg" class="d-block w-15" alt="Thor Omnibus">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Warlock-Omnibus.jpg" class="d-block w-15" alt="Warlock Omnibus">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/Mulher-Hulk.png" class="d-block w-70" alt="Mulher-Hulk Omnibus">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </secion>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Bem-vindo à nossa loja de quadrinhos raros, um tesouro para colecionadores e entusiastas! Aqui, você encontrará edições exclusivas e clássicas que trazem à vida os momentos mais épicos dos quadrinhos. Explore nossa coleção e descubra relíquias que são verdadeiras obras de arte.</p>
+                    <p>Explore nossa coleção e descubra relíquias que são verdadeiras obras de arte. Cada quadrinho raro em nossa loja é uma peça única e valiosa que pode ser o destaque da sua coleção. Não perca a chance de adquirir esses tesouros, pois eles são limitados e altamente procurados por aficionados e investidores. Venha encontrar a próxima joia para o seu acervo!</p>
+                    <a class="btn btn-lg btn-success">Botão</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <img src="./images/Thor-Omnibus.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">THOR OMNIBUS</h5>
+                            <p class="card-text">Acompanhe Thor, o poderoso Deus do Trovão, em uma jornada épica cheia de batalhas mitológicas e heroísmo. Em "O Deus do Trovão", Thor enfrenta antigos inimigos e descobre segredos do seu passado que podem mudar o destino de Asgard. Uma história imperdível para os fãs de mitologia e ação.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Warlock-Omnibus.jpg" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">WARLOCK OMNIBUS</h5>
+                            <p class="card-text">Descubra a saga cósmica de Adam Warlock em "O Renascimento". Nesta edição, Warlock enfrenta dilemas morais e inimigos intergalácticos enquanto busca seu verdadeiro propósito no universo. Uma narrativa profunda e visualmente deslumbrante que cativa do início ao fim.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2">ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Mulher-Hulk.png" class="d-block w-15" alt="Imagem Exemplo" class="img-fluid">
+                        <div class="card-body">
+                            <h5 class="card-title">MULHER HULK OMNIBUS</h5>
+                            <p class="card-text">Mergulhe nas aventuras empolgantes de Jennifer Walters, a Mulher-Hulk! Em "Fúria Verde", acompanhe a heroína enquanto ela equilibra sua carreira como advogada e suas batalhas épicas contra vilões poderosos. Uma edição repleta de ação, humor e reviravoltas.</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3">ver produto</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para solicitar disponibilidade.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <a href="cadastro.html" target="_blank" button type="submit" class="btn btn-lg btn-success">Solicitar Disponibilidade</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">THOR OMNIBUS</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">WARLOCK OMNIBUS</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">MULHER HULK OMNIBUS</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
